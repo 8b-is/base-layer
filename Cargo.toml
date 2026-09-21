@@ -1,0 +1,11 @@
+[package]
+name = "base-layer"
+version = "0.2.0"
+edition = "2021"
+description = "base-layer — core 1 of N: the T0 default as a literal synth. desert-sunset melodic house with a Kyuss doom floor, rendered to raw stereo PCM. no dependencies, show me the mechanism."
+license = "AGPL-3.0-only"
+
+[dependencies]
+
+[profile.release]
+lto = true
